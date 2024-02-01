@@ -1,0 +1,588 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav {
+  display: flex;
+}
+
+nav h1 {
+  font-size: 21px;
+  margin-left: 60px;
+  font-weight: 300;
+}
+
+button {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-button-nav{
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  font-size: small;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button-nav:hover {
+  background-color: white;
+  color: black;
+}
+
+.image-section-hero {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+.custom-button{
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    font-size: small;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .custom-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+.background-image {
+  background-image: url("Materiale/topbillede.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100vw;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+  color: white;
+  width: 40%; /* Adjust the width as needed */
+  text-align: left;
+}
+
+.text-container h2 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.pursuit {
+  background-color: #f8dd9f;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-section {
+  text-align: center;
+}
+.sec-section h1 {
+  font-size: 60px;
+}
+.sec-section p {
+  margin-top: -30px;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 40px;
+}
+
+.kontakt {
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.kontakt:hover {
+  background-color: white;
+  color: black;
+}
+
+.refinement-split {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin: 10%;
+}
+
+.img-sea-desc {
+  width: 500;
+  height: 700px;
+}
+
+.refinement-text {
+  padding-left: 40px;
+  background-color: white; /* Add white background color here */
+}
+
+.refinement-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.refinement-text h1,
+.refinement-text p,
+.refinement-text .spec-p {
+  color: #333; /* Set text color to contrast with the background */
+}
+
+.refinement-text button {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.refinement-text button:hover {
+  background-color: white;
+  color: black;
+}
+
+.image-section {
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-container h1 {
+  position: absolute;
+  font-size: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white; /* Adjust text color if needed */
+}
+
+.text-p-spli {
+  margin-right: 60px;
+}
+
+.kontakt-form {
+  display: flex;
+  background-color: #f8dd9f;
+  height: 600px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.kontakt-form h1 {
+  font-size: 70px;
+}
+.kontakt-form h2 {
+  font-size: 30px;
+}
+.pad {
+  background-color: white;
+  padding: 15px;
+  width: 700px;
+  font-weight: 300;
+  margin: 20px;
+  border-radius: 10px;
+}
+.container {
+  padding-top: 70px;
+}
+.container button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+footer h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.footer-column {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px;
+}
+.footer-column p {
+  font-size: medium;
+}
+.footer-column {
+  line-height: 5px;
+}
+.footer-column h5 {
+  font-size: medium;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+}
+
+.icons img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  nav h1 {
+    margin: 10px 0;
+  }
+
+  .text-container {
+    width: 80%;
+    left: 10%;
+    text-align: center;
+  }
+
+  .sec-section p {
+    margin: 0 20px;
+  }
+
+  .refinement-split {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-sea img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-container h1 {
+    font-size: 40px;
+  }
+
+  .kontakt-form {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .container-s {
+    padding-top: 20px;
+  }
+
+  .pad-mob-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  nav h1 {
+    margin: 0 20px;
+  }
+
+  .text-container {
+    width: 80%;
+    left: 10%;
+    text-align: center;
+  }
+
+  .sec-section p {
+    margin: 0 20px;
+  }
+
+  .refinement-split {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-sea img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-container h1 {
+    font-size: 40px;
+  }
+
+  .kontakt-form {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .pad,
+  .container {
+    width: 80%;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Add this at the end of your CSS file */
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav h1 {
+    margin: 10px 0;
+  }
+
+  .menu {
+    display: none;
+  }
+  .menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-dropdown.active .menu-items {
+    display: flex;
+  }
+
+  .menu-items h1 {
+    margin: 10px 0;
+  }
+  .img-sea img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+
+  .kontakt-form {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  .pad {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  .footer-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column .icons {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  .footer-column .icons img {
+    margin-right: 20px;
+    margin-left: 10px; /* Adjust margin between icons as needed */
+  }
+  .image-section {
+    flex-direction: column;
+    height: auto;
+    overflow: visible; /* Adjust overflow property */
+  }
+
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin between containers as needed */
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-container h1 {
+    font-size: 20px; /* Adjust font size as needed */
+  }
+}
+
+/* Tablet Styles */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  nav {
+    margin-top: 20px;
+  }
+
+  nav h1 {
+    margin: 0 20px;
+  }
+
+  .menu-dropdown {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: row;
+  }
+
+  .menu-dropdown.active .menu-items {
+    display: flex;
+  }
+
+  .menu-items h1 {
+    margin: 0 20px;
+  }
+  .img-sea img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; /* Center the image */
+  }
+  .kontakt-form {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  .kontakt-form form {
+    width: 100%;
+  }
+
+  .pad {
+    width: 100%;
+    max-width: 500px; /* Adjust max-width as needed */
+  }
+  .footer-column {
+    text-align: center;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  nav {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  nav h1 {
+    margin: 0 20px;
+  }
+
+  .menu-dropdown {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+  }
+}
